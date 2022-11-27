@@ -10,7 +10,6 @@
 		C503EEEC2933C34800A77A46 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503EEEB2933C34800A77A46 /* MessageViewModel.swift */; };
 		C503EEEE2933C7B000A77A46 /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503EEED2933C7B000A77A46 /* ConversationsViewModel.swift */; };
 		C503EEF02933CE9500A77A46 /* ConversationCellVewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503EEEF2933CE9500A77A46 /* ConversationCellVewModel.swift */; };
-		C5188D9D29328E070091073E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5188D9C29328E060091073E /* GoogleService-Info.plist */; };
 		C5188D9F29328E950091073E /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5188D9E29328E950091073E /* AuthViewModel.swift */; };
 		C5188DA1293290A40091073E /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5188DA0293290A40091073E /* ProfilePhotoSelectorView.swift */; };
 		C5188DA32932981F0091073E /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5188DA22932981F0091073E /* ImageUploader.swift */; };
@@ -59,7 +58,6 @@
 		C503EEEB2933C34800A77A46 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 		C503EEED2933C7B000A77A46 /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
 		C503EEEF2933CE9500A77A46 /* ConversationCellVewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCellVewModel.swift; sourceTree = "<group>"; };
-		C5188D9C29328E060091073E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5188D9E29328E950091073E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C5188DA0293290A40091073E /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
 		C5188DA22932981F0091073E /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				C5EE1530292FA1F200BD2996 /* WhatsappCloneApp.swift */,
 				C5188DB629329DFF0091073E /* ContentView.swift */,
 				C5EE1534292FA1F300BD2996 /* Assets.xcassets */,
-				C5188D9C29328E060091073E /* GoogleService-Info.plist */,
 				C5EE1536292FA1F300BD2996 /* Preview Content */,
 			);
 			path = WhatsappClone;
@@ -395,7 +392,6 @@
 			files = (
 				C5EE1538292FA1F300BD2996 /* Preview Assets.xcassets in Resources */,
 				C5EE1535292FA1F300BD2996 /* Assets.xcassets in Resources */,
-				C5188D9D29328E070091073E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
