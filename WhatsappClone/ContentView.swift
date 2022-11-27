@@ -2,20 +2,21 @@
 //  ContentView.swift
 //  WhatsappClone
 //
-//  Created by mert can çifter on 24.11.2022.
+//  Created by mert can çifter on 26.11.2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Group {
+            if viewModel.userSession != nil {
+                MainTabView()
+            }else{
+                LoginView()
+            }
         }
-        .padding()
     }
 }
 
